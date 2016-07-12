@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9E0756D1D34CBC600A10388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0756C1D34CBC600A10388 /* main.m */; };
+		C9E075701D34CBC600A10388 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0756F1D34CBC600A10388 /* AppDelegate.m */; };
+		C9E075731D34CBC600A10388 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E075721D34CBC600A10388 /* ViewController.m */; };
+		C9E075761D34CBC600A10388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E075741D34CBC600A10388 /* Main.storyboard */; };
+		C9E075781D34CBC600A10388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E075771D34CBC600A10388 /* Assets.xcassets */; };
+		C9E0757B1D34CBC600A10388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E075791D34CBC600A10388 /* LaunchScreen.storyboard */; };
+		C9E075861D34CBC600A10388 /* LWSelectPIckViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E075851D34CBC600A10388 /* LWSelectPIckViewTests.m */; };
+		C9E075911D34CBC600A10388 /* LWSelectPIckViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E075901D34CBC600A10388 /* LWSelectPIckViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9E075821D34CBC600A10388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E075601D34CBC600A10388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E075671D34CBC600A10388;
+			remoteInfo = LWSelectPIckView;
+		};
+		C9E0758D1D34CBC600A10388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E075601D34CBC600A10388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E075671D34CBC600A10388;
+			remoteInfo = LWSelectPIckView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9E075681D34CBC600A10388 /* LWSelectPIckView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWSelectPIckView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E0756C1D34CBC600A10388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9E0756E1D34CBC600A10388 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9E0756F1D34CBC600A10388 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9E075711D34CBC600A10388 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9E075721D34CBC600A10388 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9E075751D34CBC600A10388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9E075771D34CBC600A10388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9E0757A1D34CBC600A10388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9E0757C1D34CBC600A10388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E075811D34CBC600A10388 /* LWSelectPIckViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWSelectPIckViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E075851D34CBC600A10388 /* LWSelectPIckViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWSelectPIckViewTests.m; sourceTree = "<group>"; };
+		C9E075871D34CBC600A10388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E0758C1D34CBC600A10388 /* LWSelectPIckViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWSelectPIckViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E075901D34CBC600A10388 /* LWSelectPIckViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWSelectPIckViewUITests.m; sourceTree = "<group>"; };
+		C9E075921D34CBC600A10388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9E075651D34CBC600A10388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E0757E1D34CBC600A10388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E075891D34CBC600A10388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9E0755F1D34CBC600A10388 = {
+			isa = PBXGroup;
+			children = (
+				C9E0756A1D34CBC600A10388 /* LWSelectPIckView */,
+				C9E075841D34CBC600A10388 /* LWSelectPIckViewTests */,
+				C9E0758F1D34CBC600A10388 /* LWSelectPIckViewUITests */,
+				C9E075691D34CBC600A10388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9E075691D34CBC600A10388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9E075681D34CBC600A10388 /* LWSelectPIckView.app */,
+				C9E075811D34CBC600A10388 /* LWSelectPIckViewTests.xctest */,
+				C9E0758C1D34CBC600A10388 /* LWSelectPIckViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9E0756A1D34CBC600A10388 /* LWSelectPIckView */ = {
+			isa = PBXGroup;
+			children = (
+				C9E0756E1D34CBC600A10388 /* AppDelegate.h */,
+				C9E0756F1D34CBC600A10388 /* AppDelegate.m */,
+				C9E075711D34CBC600A10388 /* ViewController.h */,
+				C9E075721D34CBC600A10388 /* ViewController.m */,
+				C9E075741D34CBC600A10388 /* Main.storyboard */,
+				C9E075771D34CBC600A10388 /* Assets.xcassets */,
+				C9E075791D34CBC600A10388 /* LaunchScreen.storyboard */,
+				C9E0757C1D34CBC600A10388 /* Info.plist */,
+				C9E0756B1D34CBC600A10388 /* Supporting Files */,
+			);
+			path = LWSelectPIckView;
+			sourceTree = "<group>";
+		};
+		C9E0756B1D34CBC600A10388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9E0756C1D34CBC600A10388 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9E075841D34CBC600A10388 /* LWSelectPIckViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9E075851D34CBC600A10388 /* LWSelectPIckViewTests.m */,
+				C9E075871D34CBC600A10388 /* Info.plist */,
+			);
+			path = LWSelectPIckViewTests;
+			sourceTree = "<group>";
+		};
+		C9E0758F1D34CBC600A10388 /* LWSelectPIckViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9E075901D34CBC600A10388 /* LWSelectPIckViewUITests.m */,
+				C9E075921D34CBC600A10388 /* Info.plist */,
+			);
+			path = LWSelectPIckViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9E075671D34CBC600A10388 /* LWSelectPIckView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E075951D34CBC600A10388 /* Build configuration list for PBXNativeTarget "LWSelectPIckView" */;
+			buildPhases = (
+				C9E075641D34CBC600A10388 /* Sources */,
+				C9E075651D34CBC600A10388 /* Frameworks */,
+				C9E075661D34CBC600A10388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWSelectPIckView;
+			productName = LWSelectPIckView;
+			productReference = C9E075681D34CBC600A10388 /* LWSelectPIckView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9E075801D34CBC600A10388 /* LWSelectPIckViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E075981D34CBC600A10388 /* Build configuration list for PBXNativeTarget "LWSelectPIckViewTests" */;
+			buildPhases = (
+				C9E0757D1D34CBC600A10388 /* Sources */,
+				C9E0757E1D34CBC600A10388 /* Frameworks */,
+				C9E0757F1D34CBC600A10388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E075831D34CBC600A10388 /* PBXTargetDependency */,
+			);
+			name = LWSelectPIckViewTests;
+			productName = LWSelectPIckViewTests;
+			productReference = C9E075811D34CBC600A10388 /* LWSelectPIckViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9E0758B1D34CBC600A10388 /* LWSelectPIckViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E0759B1D34CBC600A10388 /* Build configuration list for PBXNativeTarget "LWSelectPIckViewUITests" */;
+			buildPhases = (
+				C9E075881D34CBC600A10388 /* Sources */,
+				C9E075891D34CBC600A10388 /* Frameworks */,
+				C9E0758A1D34CBC600A10388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E0758E1D34CBC600A10388 /* PBXTargetDependency */,
+			);
+			name = LWSelectPIckViewUITests;
+			productName = LWSelectPIckViewUITests;
+			productReference = C9E0758C1D34CBC600A10388 /* LWSelectPIckViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9E075601D34CBC600A10388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TFLH;
+				TargetAttributes = {
+					C9E075671D34CBC600A10388 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C9E075801D34CBC600A10388 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C9E075671D34CBC600A10388;
+					};
+					C9E0758B1D34CBC600A10388 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C9E075671D34CBC600A10388;
+					};
+				};
+			};
+			buildConfigurationList = C9E075631D34CBC600A10388 /* Build configuration list for PBXProject "LWSelectPIckView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9E0755F1D34CBC600A10388;
+			productRefGroup = C9E075691D34CBC600A10388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9E075671D34CBC600A10388 /* LWSelectPIckView */,
+				C9E075801D34CBC600A10388 /* LWSelectPIckViewTests */,
+				C9E0758B1D34CBC600A10388 /* LWSelectPIckViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9E075661D34CBC600A10388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E0757B1D34CBC600A10388 /* LaunchScreen.storyboard in Resources */,
+				C9E075781D34CBC600A10388 /* Assets.xcassets in Resources */,
+				C9E075761D34CBC600A10388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E0757F1D34CBC600A10388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E0758A1D34CBC600A10388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9E075641D34CBC600A10388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E075731D34CBC600A10388 /* ViewController.m in Sources */,
+				C9E075701D34CBC600A10388 /* AppDelegate.m in Sources */,
+				C9E0756D1D34CBC600A10388 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E0757D1D34CBC600A10388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E075861D34CBC600A10388 /* LWSelectPIckViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E075881D34CBC600A10388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E075911D34CBC600A10388 /* LWSelectPIckViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9E075831D34CBC600A10388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E075671D34CBC600A10388 /* LWSelectPIckView */;
+			targetProxy = C9E075821D34CBC600A10388 /* PBXContainerItemProxy */;
+		};
+		C9E0758E1D34CBC600A10388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E075671D34CBC600A10388 /* LWSelectPIckView */;
+			targetProxy = C9E0758D1D34CBC600A10388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9E075741D34CBC600A10388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E075751D34CBC600A10388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9E075791D34CBC600A10388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E0757A1D34CBC600A10388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9E075931D34CBC600A10388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9E075941D34CBC600A10388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9E075961D34CBC600A10388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LWSelectPIckView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TFLH.LWSelectPIckView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9E075971D34CBC600A10388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LWSelectPIckView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TFLH.LWSelectPIckView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9E075991D34CBC600A10388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LWSelectPIckViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TFLH.LWSelectPIckViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWSelectPIckView.app/LWSelectPIckView";
+			};
+			name = Debug;
+		};
+		C9E0759A1D34CBC600A10388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LWSelectPIckViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TFLH.LWSelectPIckViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWSelectPIckView.app/LWSelectPIckView";
+			};
+			name = Release;
+		};
+		C9E0759C1D34CBC600A10388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LWSelectPIckViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TFLH.LWSelectPIckViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LWSelectPIckView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C9E0759D1D34CBC600A10388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LWSelectPIckViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TFLH.LWSelectPIckViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LWSelectPIckView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9E075631D34CBC600A10388 /* Build configuration list for PBXProject "LWSelectPIckView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E075931D34CBC600A10388 /* Debug */,
+				C9E075941D34CBC600A10388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E075951D34CBC600A10388 /* Build configuration list for PBXNativeTarget "LWSelectPIckView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E075961D34CBC600A10388 /* Debug */,
+				C9E075971D34CBC600A10388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9E075981D34CBC600A10388 /* Build configuration list for PBXNativeTarget "LWSelectPIckViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E075991D34CBC600A10388 /* Debug */,
+				C9E0759A1D34CBC600A10388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9E0759B1D34CBC600A10388 /* Build configuration list for PBXNativeTarget "LWSelectPIckViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E0759C1D34CBC600A10388 /* Debug */,
+				C9E0759D1D34CBC600A10388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9E075601D34CBC600A10388 /* Project object */;
+}
